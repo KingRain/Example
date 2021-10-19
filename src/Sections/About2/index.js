@@ -1,8 +1,8 @@
 import styled, { keyframes } from "styled-components";
 import wave from "../../assets/waves2.svg";
-import rocket from "../../assets/rocket image.png";
-import human from "../../assets/human.svg";
-import hand from "../../assets/hand.svg";
+import rocket from "../../assets/3dtube.png";
+//import human from "../../assets/human.svg";
+//import hand from "../../assets/hand.svg";
 
 const move = keyframes`
 0% { transform: translateY(-5px)         }
@@ -24,15 +24,7 @@ const Waves = styled.img`
   position: absolute;
   top: -1rem;
 `;
-const Hand = styled.div`
-  position: absolute;
-  bottom: -1rem;
-  right: 0;
 
-  @media only Screen and (max-width: 40em) {
-    display: none;
-  }
-`;
 
 const Main = styled.div`
   margin: 0 15rem;
@@ -85,16 +77,7 @@ const Rocket = styled.div`
   }
 `;
 
-const Human = styled.div`
-  width: 50%;
-  position: absolute;
-  right: 0;
-  bottom: 100%;
 
-  @media only Screen and (max-width: 40em) {
-    display: none;
-  }
-`;
 const Text = styled.h4`
   font-size: calc(0.5rem + 1vw);
   line-height: 1.5;
@@ -121,12 +104,9 @@ const About = () => {
   return (
     <AboutSection id="about">
       <Waves src={wave} alt="" />
-      <Hand>
-        <img src={hand} alt="" />
-      </Hand>
       <Main>
         <div>
-          <Title>About Us</Title>
+          <Title>Services</Title>
           <CurvedLine />
         </div>
         <Content>
@@ -134,9 +114,6 @@ const About = () => {
             <img src={rocket} alt="" width="400" height="400" />
           </Rocket>
           <AboutText>
-            <Human>
-              <img src={human} alt="" width="400" height="400" />
-            </Human>
 
             <Text>
               We help our customers to tell about themselves, to grow and stand

@@ -234,7 +234,7 @@ const Header = () => {
   return (
     <Headers ref={ref}>
       <Logo>
-        <img src={logo} alt="CodeBucks" />
+        <img src={logo} alt="ExampleWebsite" />
         <h3>Website</h3>
       </Logo>
       <Nav>

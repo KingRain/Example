@@ -139,10 +139,7 @@ const About = () => {
             </Human>
 
             <Text>
-              We help our customers to tell about themselves, to grow and stand
-              out in an increasingly competitive digital world, through creative
-              projects that are able to attract and involve, creating strategic
-              value.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id leo rutrum, dignissim nisi sit amet, mollis lectus. Mauris et feugiat enim. Nunc aliquet est mauris, id tristique sapien molestie non. Nullam varius risus ut felis varius rhoncus ut ut leo. Integer blandit luctus viverra.
             </Text>
             <div>
               <Circle style={{ backgroundColor: "var(--purple)" }} />

@@ -193,9 +193,9 @@ const HeroSection = () => {
             <Circle />
             <span>We Build Web</span>
           </Topic>
-          <Title>Transforming your digital presence</Title>
+          <Title>A Good Heading right here</Title>
           <SubText>
-            we help fast growing companies build award winning websites
+            Some Subtext to go with it.
           </SubText>
           <CTA>
             Get in touch &nbsp;

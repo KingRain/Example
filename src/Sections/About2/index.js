@@ -25,7 +25,6 @@ const Waves = styled.img`
   top: -1rem;
 `;
 
-
 const Main = styled.div`
   margin: 0 15rem;
   margin-top: 15rem;
@@ -77,7 +76,6 @@ const Rocket = styled.div`
   }
 `;
 
-
 const Text = styled.h4`
   font-size: calc(0.5rem + 1vw);
   line-height: 1.5;
@@ -114,12 +112,12 @@ const About = () => {
             <img src={rocket} alt="" width="400" height="400" />
           </Rocket>
           <AboutText>
-
             <Text>
-              We help our customers to tell about themselves, to grow and stand
-              out in an increasingly competitive digital world, through creative
-              projects that are able to attract and involve, creating strategic
-              value.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id
+              leo rutrum, dignissim nisi sit amet, mollis lectus. Mauris et
+              feugiat enim. Nunc aliquet est mauris, id tristique sapien
+              molestie non. Nullam varius risus ut felis varius rhoncus ut ut
+              leo. Integer blandit luctus viverra.
             </Text>
             <div>
               <Circle style={{ backgroundColor: "var(--purple)" }} />

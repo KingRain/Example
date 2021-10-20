@@ -102,7 +102,7 @@ const AboutText = styled.div`
 
 const About = () => {
   return (
-    <AboutSection id="about">
+    <AboutSection id="about2">
       <Waves src={wave} alt="" />
       <Main>
         <div>

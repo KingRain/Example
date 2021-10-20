@@ -244,7 +244,7 @@ const Header = () => {
         <a href="#about" onClick={(e) => scrollUp("about", e)}>
           About Us
         </a>
-        <a href="#services" onClick={(e) => scrollUp("services", e)}>
+        <a href="#about2" onClick={(e) => scrollUp("about2", e)}>
           Services
         </a>
         <a href="#contact" onClick={(e) => scrollUp("contact", e)}>

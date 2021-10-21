@@ -125,7 +125,7 @@ const About = () => {
           />
           <AboutText>
             <Human>
-              <img src={human} alt="" width="400" height="400" />
+              <img src={human} alt="" width="200" height="100" />
             </Human>
 
             <Text>

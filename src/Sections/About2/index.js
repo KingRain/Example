@@ -88,7 +88,7 @@ const About = () => {
             loop
             animationData={lottieJson}
             play
-            style={{ width: 550, height: 500 }}
+            style={{ width: 500, height: 350 }}
           />
           <AboutText>
 

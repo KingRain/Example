@@ -54,81 +54,13 @@ const Icons = styled.div`
   }
 `;
 
-const Form = styled.form`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  input {
-    padding: 1rem calc(0.5rem + 1vw);
-    margin-bottom: 1rem;
-    background-color: var(--nav2);
-    border: none;
-    border-radius: 4px;
-    color: #eff7f8;
-    &:active,
-    &:focus {
-      border: none;
-      outline: none;
-      background-color: var(--nav);
-    }
-    &::placeholder {
-      color: #eff7f8;
-      opacity: 0.6;
-    }
-    &[name="name"] {
-      margin-right: 2rem;
-    }
-  }
-  textarea {
-    padding: 1rem calc(0.5rem + 1vw);
-    margin-bottom: 1rem;
-    background-color: var(--nav2);
-    border: none;
-    border-radius: 4px;
-    color: #eff7f8;
-    margin-bottom: 2rem;
-    &:focus,
-    &:active {
-      background-color: var(--nav);
-    }
-    &::placeholder {
-      color: #eff7f8;
-      opacity: 0.6;
-    }
-  }
-  button {
-    padding: 0.8rem 2rem;
-    background-color: var(--white);
-    border-radius: 20px;
-    font-size: 1.2rem;
-    color: #0a0b10;
-    cursor: pointer;
-    transition: transform 0.3s;
-    &:hover {
-      transform: scale(1.1);
-    }
-    &:active {
-      transform: scale(0.9);
-    }
-  }
-`;
 
-const Row = styled.div`
-  @media only Screen and (max-width: 40em) {
-    display: flex;
-    flex-direction: column;
-    input {
-      &[name="name"] {
-        margin-right: 0;
-      }
-    }
-  }
-`;
+
+
 const Contact = () => {
   return (
     <ContactSection id="contact">
-      <Title>Get in touch</Title>
-      {/* <Text>Lorem ipsum dolor sit amet, consectetur adipisicing.</Text> */}
+      <Title>Our Partners</Title>
       <Icons>
         <a href="https://www.facebook.com/">
           {" "}
@@ -144,32 +76,6 @@ const Contact = () => {
           <img src={Instagram} alt="Instagram" />
         </a>
       </Icons>
-      <Form>
-        <Row>
-          <input name="name" type="text" placeholder="your name" />
-          <input
-            name="email"
-            type="email"
-            placeholder="enter working email id"
-          />
-        </Row>
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="2"
-          placeholder="your message"
-        ></textarea>
-        <div style={{ margin: "0 auto" }}>
-          <button
-            onClick={(e) => {
-              e.preventDefault();
-            }}
-          >
-            Submit
-          </button>
-        </div>
-      </Form>
     </ContactSection>
   );
 };

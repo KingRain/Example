@@ -1,14 +1,13 @@
-import styled, { keyframes } from "styled-components";
-import wave from "../../assets/waves2.svg";
-import rocket from "../../assets/pic3.svg";
-//import human from "../../assets/human.svg";
-//import hand from "../../assets/hand.svg";
+import styled from "styled-components";
+import wave from "../../assets/waves.svg";
+import human from "../../assets/human.svg";
+import hand from "../../assets/hand.svg";
 
-const move = keyframes`
-0% { transform: translateY(-5px)         }
-    50% { transform: translateY(10px) translateX(10px)        }
-    100% { transform: translateY(-5px)         }
-`;
+import React from 'react'
+import Lottie from 'react-lottie-player'
+
+import lottieJson from './ani3.json'
+
 
 const AboutSection = styled.section`
   width: 100vw;
@@ -17,12 +16,6 @@ const AboutSection = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-`;
-const Waves = styled.img`
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: -1rem;
 `;
 
 const Main = styled.div`
@@ -63,18 +56,6 @@ const Content = styled.div`
   }
 `;
 
-const Rocket = styled.div`
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  width: 45%;
-  padding-bottom: 5rem;
-  animation: ${move} 2.5s ease infinite;
-  @media only Screen and (max-width: 40em) {
-    width: 50vw;
-    padding-bottom: 0;
-  }
-`;
 
 const Text = styled.h4`
   font-size: calc(0.5rem + 1vw);
@@ -101,23 +82,22 @@ const AboutText = styled.div`
 const About = () => {
   return (
     <AboutSection id="about3">
-      <Waves src={wave} alt="" />
       <Main>
         <div>
           <Title>Heading</Title>
           <CurvedLine />
         </div>
         <Content>
-          <Rocket>
-            <img src={rocket} alt="" width="400" height="400" />
-          </Rocket>
+          <Lottie
+            loop
+            animationData={lottieJson}
+            play
+            style={{ width: 550, height: 500 }}
+          />
           <AboutText>
+
             <Text>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id
-              leo rutrum, dignissim nisi sit amet, mollis lectus. Mauris et
-              feugiat enim. Nunc aliquet est mauris, id tristique sapien
-              molestie non. Nullam varius risus ut felis varius rhoncus ut ut
-              leo. Integer blandit luctus viverra.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id leo rutrum, dignissim nisi sit amet, mollis lectus. Mauris et feugiat enim. Nunc aliquet est mauris, id tristique sapien molestie non. Nullam varius risus ut felis varius rhoncus ut ut leo. Integer blandit luctus viverra.
             </Text>
             <div>
               <Circle style={{ backgroundColor: "var(--purple)" }} />

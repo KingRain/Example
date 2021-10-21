@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import wave from "../../assets/waves.svg";
 import human from "../../assets/human.svg";
 import hand from "../../assets/hand.svg";
@@ -121,7 +121,7 @@ const About = () => {
             loop
             animationData={lottieJson}
             play
-            style={{ width: 650, height: 500 }}
+            style={{ width: 550, height: 500 }}
           />
           <AboutText>
             <Human>

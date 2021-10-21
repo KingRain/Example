@@ -8,6 +8,7 @@ import About from "../Sections/About/index";
 import Contact from "../Sections/Contact/index";
 import styled from "styled-components";
 import About2 from "../Sections/About2/index";
+import About3 from "../Sections/About3/index";
 
 const Container = styled.div`
   display: flex;
@@ -23,6 +24,7 @@ const Home = () => {
       <HeroSection />
       <About />
       <About2 />
+      <About3 />
       <Contact />
     </Container>
   );

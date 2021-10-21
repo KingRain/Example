@@ -76,7 +76,7 @@ const Rocket = styled.div`
   display: flex;
   justify-content: center;
   align-content: center;
-  width: 40%;
+  width: 49%;
   padding-bottom: 5rem;
   animation: ${move} 2.5s ease infinite;
   @media only Screen and (max-width: 40em) {

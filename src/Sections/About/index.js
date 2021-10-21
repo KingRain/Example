@@ -1,14 +1,13 @@
 import styled, { keyframes } from "styled-components";
 import wave from "../../assets/waves.svg";
-import rocket from "../../assets/pic1.svg";
 import human from "../../assets/human.svg";
 import hand from "../../assets/hand.svg";
 
-const move = keyframes`
-0% { transform: translateY(-5px)         }
-    50% { transform: translateY(10px) translateX(10px)        }
-    100% { transform: translateY(-5px)         }
-`;
+import React from 'react'
+import Lottie from 'react-lottie-player'
+
+import lottieJson from './ani1.json'
+
 
 const AboutSection = styled.section`
   width: 100vw;
@@ -72,18 +71,6 @@ const Content = styled.div`
   }
 `;
 
-const Rocket = styled.div`
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  width: 49%;
-  padding-bottom: 5rem;
-  animation: ${move} 2.5s ease infinite;
-  @media only Screen and (max-width: 40em) {
-    width: 50vw;
-    padding-bottom: 0;
-  }
-`;
 
 const Human = styled.div`
   width: 50%;
@@ -130,9 +117,12 @@ const About = () => {
           <CurvedLine />
         </div>
         <Content>
-          <Rocket>
-            <img src={rocket} alt="" width="400" height="400" />
-          </Rocket>
+          <Lottie
+            loop
+            animationData={lottieJson}
+            play
+            style={{ width: 650, height: 500 }}
+          />
           <AboutText>
             <Human>
               <img src={human} alt="" width="400" height="400" />

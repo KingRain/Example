@@ -1,7 +1,4 @@
 import styled from "styled-components";
-import wave from "../../assets/waves.svg";
-import human from "../../assets/human.svg";
-import hand from "../../assets/hand.svg";
 
 import React from 'react'
 import Lottie from 'react-lottie-player'

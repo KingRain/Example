@@ -16,6 +16,7 @@ const AboutSection = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
 `;
 const Waves = styled.img`
   width: 100%;

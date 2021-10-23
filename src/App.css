@@ -7,8 +7,10 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    background-color: white;
 }
 
 .App {
     text-align: center;
+    background-color: white;
   }

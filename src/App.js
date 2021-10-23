@@ -92,6 +92,29 @@ function App() {
     })
   }, [])
 
+  const customMarks = [
+    {
+      value: 10,
+      label: '$10',
+    },
+    {
+      value: 20,
+      label: '$20',
+    },
+    {
+      value: 30,
+      label: '$30',
+    },
+    {
+      value: 40,
+      label: '$40',
+    },
+    {
+      value: 50,
+      label: '$50',
+    },
+  ];
+
   return (
     <>
       <Suspense fallback={null}>
@@ -103,11 +126,11 @@ function App() {
         <Box className="App" m={10}>
           <Slider
             style={{ width: 300 }}
-            min={1}
-            max={3}
-            step={1}
+            min={10}
+            max={50}
+            step={10}
             value={value}
-            marks
+            marks={customMarks}
             onChange={changeValue}
             valueLabelDisplay="auto"
             getAriaValueText={getText}

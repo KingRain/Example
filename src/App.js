@@ -3,6 +3,7 @@ import { lazy, Suspense } from "react";
 import lottie from 'lottie-web';
 import React, { useState, useRef, useEffect } from 'react';
 import './App.css';
+import { Box, Slider } from '@material-ui/core';
 
 const Home = lazy(() => import("./Pages/Home"));
 const Header = lazy(() => import("./components/Header/index"));
@@ -72,6 +73,15 @@ function App() {
     description: 'Lorem Isopum',
   };
 
+  const [value, setValue] = useState(20);
+
+  const changeValue = (event, value) => {
+    setValue(value);
+  };
+
+  const getText = (valu) => `${value}`;
+
+
   useEffect(() => {
     lottie.loadAnimation({
       container: container.current,
@@ -90,6 +100,19 @@ function App() {
         <ScrollToTop />
         <Header />
         <Home />
+        <Box className="App" m={10}>
+          <Slider
+            style={{ width: 300 }}
+            min={1}
+            max={3}
+            step={1}
+            value={value}
+            marks
+            onChange={changeValue}
+            valueLabelDisplay="auto"
+            getAriaValueText={getText}
+          />
+        </Box>
         <div className="App">
           <Product product={product} />
         </div>

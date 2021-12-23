@@ -7,7 +7,7 @@ import styled from "styled-components";
 const ContactSection = styled.section`
   width: 100vw;
   padding: calc(2.5rem + 2.5vw) 0;
-  background-color: black;
+  background-color: #0a0b10;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -16,7 +16,7 @@ const ContactSection = styled.section`
 `;
 
 const Title = styled.h1`
-  color: black;
+  color: white;
   display: inline-block;
   font-size: 2rem;
   margin-bottom: 3rem;
@@ -32,7 +32,7 @@ const Title = styled.h1`
     /* or 100px */
     border-bottom: 2px solid var(--purple);
   }
-  background-color: white;
+  background-color: #0a0b10;
 `;
 
 const Icons = styled.div`
@@ -53,7 +53,7 @@ const Icons = styled.div`
       height: 3rem;
     }
   }
-  background-color: white;
+  background-color: #0a0b10;
 `;
 
 

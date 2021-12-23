@@ -6,11 +6,20 @@ import About from "../Sections/About/index";
 //import Services from "../Sections/Services/index";
 //import Testimonials from "../Sections/Testimonials/index";
 import Contact from "../Sections/Contact/index";
+import styled from "styled-components";
 import About2 from "../Sections/About2/index";
 import About3 from "../Sections/About3/index";
 
 import React, { useState, useRef, useEffect } from 'react';
 
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+`;
 
 const Home = () => {
 

@@ -10,7 +10,7 @@ import styled from "styled-components";
 import About2 from "../Sections/About2/index";
 import About3 from "../Sections/About3/index";
 
-import React, { useState, useRef, useEffect } from 'react';
+import React from 'react';
 
 
 const Container = styled.div`

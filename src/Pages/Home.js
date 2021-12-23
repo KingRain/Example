@@ -130,22 +130,6 @@ const Home = () => {
       <About />
       <About2 />
       <About3 />
-      <App className="App" m={10}>
-        <Slider
-          style={{ width: 300 }}
-          min={10}
-          max={50}
-          step={10}
-          value={value}
-          marks={customMarks}
-          onChange={changeValue}
-          valueLabelDisplay="auto"
-          getAriaValueText={getText}
-        />
-      </App>
-      <App className="App">
-        <Product product={product} />
-      </App>
       <Contact />
     </Container>
   );

@@ -130,7 +130,7 @@ const About = () => {
             </Human>
 
             <Text>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id leo rutrum, dignissim nisi sit amet, mollis lectus. Mauris et feugiat enim. Nunc aliquet est mauris, id tristique sapien molestie non. Nullam varius risus ut felis varius rhoncus ut ut leo. Integer blandit luctus viverra.
+            We are Worldwide. Here we are creating an amazing community that caters to all people from all corners of the globe. We have been active since November 2018, creating which is around 3 years ago. We are trying our best to limit the toxicity rate within our community. We are all striving and seeking a positive environment for our members. 
             </Text>
             <div>
               <Circle style={{ backgroundColor: "var(--purple)" }} />

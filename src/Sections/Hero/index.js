@@ -193,13 +193,13 @@ const HeroSection = () => {
             <Circle />
             <span>We Build Web</span>
           </Topic>
-          <Title>A Good Heading right here</Title>
+          <Title>Welcome to Worldwide!</Title>
           <SubText>
-            Some Subtext to go with it.
+          Here we are one community connecting everybody from all around the world.
           </SubText>
-          <CTA>
-            Get in touch &nbsp;
-            <img src={arrow} alt="cta" width="100" height="100" />
+          <CTA href="https://discord.com/invite/worldwide">
+            Join Discord &nbsp;
+            <img src={arrow} alt="cta" width="100" height="100"/>
           </CTA>
         </Lb>
 

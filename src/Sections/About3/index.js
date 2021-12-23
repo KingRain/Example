@@ -82,7 +82,7 @@ const About = () => {
     <AboutSection id="about3">
       <Main>
         <div>
-          <Title>Heading</Title>
+          <Title>Reviews</Title>
           <CurvedLine />
         </div>
         <Content>

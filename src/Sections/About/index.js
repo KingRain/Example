@@ -106,6 +106,17 @@ const AboutText = styled.div`
   }
 `;
 
+const Aboutimg = styled.div`
+width: 50%;
+position: absolute;
+right: 0;
+bottom: 100%;
+
+@media only Screen and (max-width: 40em) {
+  display: none;
+}
+`
+
 const About = () => {
   return (
     <AboutSection id="about">
@@ -119,7 +130,9 @@ const About = () => {
           <CurvedLine />
         </div>
         <Content>
-          <img src={Aboutus} alt="" width="200" height="100" />
+          <Aboutimg>
+            <img src={Aboutus} alt="" width="200" height="100" />
+          </Aboutimg>
           <AboutText>
             <Human>
               <img src={human} alt="" width="200" height="100" />

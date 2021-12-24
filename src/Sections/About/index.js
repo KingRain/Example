@@ -119,7 +119,7 @@ const About = () => {
           <CurvedLine />
         </div>
         <Content>
-          <img src={Aboutus} alt="" width="400" height="400" />
+          <img src={Aboutus} alt="" width="200" height="100" />
           <AboutText>
             <Human>
               <img src={human} alt="" width="200" height="100" />

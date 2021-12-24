@@ -1,9 +1,10 @@
 import styled from "styled-components";
+import Reviews from "../../assets/meeting.png";
 
 import React from 'react'
-import Lottie from 'react-lottie-player'
+//import Lottie from 'react-lottie-player'
 
-import lottieJson from './ani3.json'
+//import lottieJson from './ani3.json'
 
 
 const AboutSection = styled.section`
@@ -86,12 +87,7 @@ const About = () => {
           <CurvedLine />
         </div>
         <Content>
-          <Lottie
-            loop
-            animationData={lottieJson}
-            play
-            style={{ width: 500, height: 420 }}
-          />
+          <img src={Reviews} alt="" />
           <AboutText>
 
             <Text>

@@ -2,11 +2,12 @@ import styled from "styled-components";
 import wave from "../../assets/waves.svg";
 import human from "../../assets/human.svg";
 import hand from "../../assets/hand.svg";
+import Aboutus from "../../assets/award.png";
 
 import React from 'react'
-import Lottie from 'react-lottie-player'
+//import Lottie from 'react-lottie-player'
 
-import lottieJson from './ani1.json'
+//import lottieJson from './ani1.json'
 
 
 const AboutSection = styled.section`
@@ -118,12 +119,7 @@ const About = () => {
           <CurvedLine />
         </div>
         <Content>
-          <Lottie
-            loop
-            animationData={lottieJson}
-            play
-            style={{ width: 550, height: 400 }}
-          />
+          <img src={Aboutus} alt="" />
           <AboutText>
             <Human>
               <img src={human} alt="" width="200" height="100" />

@@ -107,9 +107,9 @@ const AboutText = styled.div`
 `;
 
 const Aboutimg = styled.div`
-width: 100%;
+width: 30%;
 position: relative;
-bottom: 100%;
+bottom: 70%;
 
 `
 

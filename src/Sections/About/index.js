@@ -109,8 +109,8 @@ const AboutText = styled.div`
 const Aboutimg = styled.div`
 width: 30%;
 position: relative;
-bottom: 70%;
-
+top: 100%;
+bottom: 100%;
 `
 
 const About = () => {

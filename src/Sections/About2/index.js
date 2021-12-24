@@ -78,14 +78,11 @@ const AboutText = styled.div`
 `;
 
 const Aboutimg2 = styled.div`
-width: 0%;
+width: 50%;
 position: absolute;
 right: 0;
 bottom: 100%;
 
-@media only Screen and (max-width: 40em) {
-  display: none;
-}
 `
 
 const About = () => {

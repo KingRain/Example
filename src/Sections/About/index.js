@@ -112,9 +112,6 @@ position: absolute;
 right: 0;
 bottom: 100%;
 
-@media only Screen and (max-width: 40em) {
-  display: none;
-}
 `
 
 const About = () => {

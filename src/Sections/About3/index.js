@@ -78,7 +78,7 @@ const AboutText = styled.div`
   }
 `;
 
-const Aboutimg = styled.div`
+const Aboutimg3 = styled.div`
 width: 100%;
 position: absolute;
 right: 50;

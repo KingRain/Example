@@ -6,7 +6,7 @@ import pinkBlob from "../../assets/blobPink.png";
 import purpleBlob from "../../assets/blob purple.png";
 import whiteBlob from "../../assets/blob white.png";
 import arrow from "../../assets/Arrow Right.svg";
-import Mobile from "../../assets/mobile.svg";
+import Mobile from "../../assets/earth.png";
 
 const move = keyframes`
 0% { transform: translateY(-5px)  }

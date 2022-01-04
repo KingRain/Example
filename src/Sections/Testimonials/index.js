@@ -84,27 +84,57 @@ const Testimonials = () => {
       <Carousal>
         <Slider {...settings}>
           <Card
-            text="Cool members and a chill server "
+            text="Cool members and a chill server"
             name="BlackHat^"
-            image="avatar-1"
+            image="av1"
           />
 
           <Card
             text="Very good server, high moderation level and amazing members "
             name="Zeni"
-            image="avatar-2"
+            image="av2"
           />
 
           <Card
             text="best place to have fun and hang out with your lads"
             name="Keorome"
-            image="avatar-3"
+            image="av3"
           />
 
           <Card
             text="This server's Overall member's behavior is friendly and wholesome. This server is totally family-friendly/SFW!"
             name="Dr. Love"
-            image="avatar-4"
+            image="av4"
+          />
+          <Card
+            text="the best server i ever been in."
+            name="shnka™"
+            image="av5"
+          />
+          <Card
+            text="If you ever need help with anything just go to WorldWide. They are so chill with all kinds of people.the best server i ever been in."
+            name="DaPinkNinja"
+            image="av6"
+          />
+          <Card
+            text="Now a partnership manager, I love worldwide it has so many positive ppl in there not to mention the kind owner and staff."
+            name="lifeofdepression"
+            image="av7"
+          />
+          <Card
+            text="As a frequent user of Discord, I have been always trying to find the ideal and most friendly server on the platform. Worldwide is a like a family, where everyone will always help and talk to you."
+            name="Freeze"
+            image="av8"
+          />
+          <Card
+            text="The best server on discord with no doubts, I adore this server, and its community <3"
+            name="IamIn"
+            image="av9"
+          />
+          <Card
+            text="Best server I've been in so far, never had such a chill experience with a server. "
+            name="NOWay"
+            image="av10"
           />
         </Slider>
       </Carousal>

@@ -102,7 +102,7 @@ const Testimonials = () => {
           />
 
           <Card
-            text="This server's Overall member's behavior is friendly and wholesome..and I also appreciate the idea behind this server... which is to bring people from every corner of this world and make new Good friends! and this server is totally family-friendly/SFW!"
+            text="This server's Overall member's behavior is friendly and wholesome. This server is totally family-friendly/SFW!"
             name="Dr. Love"
             image="avatar-4"
           />

@@ -9,6 +9,7 @@ import Contact from "../Sections/Contact/index";
 import styled from "styled-components";
 import About2 from "../Sections/About2/index";
 import About3 from "../Sections/About3/index";
+import Testimonials from "../Sections/Testimonials/index";
 
 import React from 'react';
 
@@ -29,6 +30,7 @@ const Home = () => {
       <About />
       <About2 />
       <About3 />
+      <Testimonials />
       <Contact />
     </Container>
   );

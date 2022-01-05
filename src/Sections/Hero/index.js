@@ -93,7 +93,12 @@ const MobileSvg = styled.img`
 
 const Online = styled.div`
   display: flex;
+  position: relative;
+  top: -37px;
+  right: -180px;
   padding: 0.5rem 0;
+  flex-direction: column;
+  align-items: flex-start;
 `
 
 const Lb = styled.div`
@@ -209,15 +214,15 @@ const HeroSection = () => {
           <SubText>
             Here we are one community connecting everybody from all around the world.
           </SubText>
-          <Online>
-            <img src="https://discord.com/api/guilds/512369682636865556/widget.png" alt="cta" width="10" height="10" />
-          </Online>
           <CTA>
             <Link>
             <a href="https://discord.com/invite/worldwide" target="_blank" rel="noreferrer" >Join Discord &nbsp;</a>
             </Link>
             <img src={arrow} alt="cta" width="100" height="100" />
           </CTA>
+          <Online>
+            <img src="https://discord.com/api/guilds/512369682636865556/widget.png" alt="cta" width="10" height="10" />
+          </Online>
         </Lb>
 
         <MobileSvg

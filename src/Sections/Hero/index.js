@@ -210,11 +210,11 @@ const HeroSection = () => {
             Here we are one community connecting everybody from all around the world.
           </SubText>
           <Online>
-            <img src="https://discord.com/api/guilds/512369682636865556/widget.png" width="10" height="10" />
+            <img src="https://discord.com/api/guilds/512369682636865556/widget.png" alt="cta" width="10" height="10" />
           </Online>
           <CTA>
             <Link>
-            <a href="https://discord.com/invite/worldwide" target="_blank" >Join Discord &nbsp;</a>
+            <a href="https://discord.com/invite/worldwide" target="_blank" rel="noreferrer" >Join Discord &nbsp;</a>
             </Link>
             <img src={arrow} alt="cta" width="100" height="100" />
           </CTA>

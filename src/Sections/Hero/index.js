@@ -91,6 +91,11 @@ const MobileSvg = styled.img`
   }
 `;
 
+const Online = styled.div`
+  display: flex;
+  padding: 0.5rem 0;
+`
+
 const Lb = styled.div`
   display: flex;
   flex-direction: column;
@@ -172,6 +177,13 @@ const CTA = styled.button`
   }
 `;
 
+const Link = styled.div`
+  a{  
+  color: black;  
+  } 
+  background-color: #ffffff;
+`;
+
 const HeroSection = () => {
   return (
     <HomeSection id="home">
@@ -195,14 +207,16 @@ const HeroSection = () => {
           </Topic>
           <Title>Welcome to Worldwide!</Title>
           <SubText>
-          Here we are one community connecting everybody from all around the world.
+            Here we are one community connecting everybody from all around the world.
           </SubText>
-          <div>
-            <img src="https://discordapp.com/api/guilds/512369682636865556/widget.png" width="10" height="10" />
-          </div>
-          <CTA href="https://discord.com/invite/worldwide">
-            Join Discord &nbsp;
-            <img src={arrow} alt="cta" width="100" height="100"/>
+          <Online>
+            <img src="https://discord.com/api/guilds/512369682636865556/widget.png" width="10" height="10" />
+          </Online>
+          <CTA>
+            <Link>
+            <a href="https://discord.com/invite/worldwide" target="_blank" >Join Discord &nbsp;</a>
+            </Link>
+            <img src={arrow} alt="cta" width="100" height="100" />
           </CTA>
         </Lb>
 
